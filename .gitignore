@@ -1,4 +1,5 @@
 .venv311/
+.venv-pycaret/
 logs.log
 __pycache__/
 .ipynb_checkpoints/
