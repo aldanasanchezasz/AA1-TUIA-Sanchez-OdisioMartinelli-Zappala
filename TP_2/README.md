@@ -88,6 +88,6 @@ Para ello, presionar Ctrl + Shift + P, y elegir en entorno virtual correspondien
 
 Notas:
 - El notebook lee `weatherAUS_2026C2.csv` desde esta carpeta.
-- Además de lo listado en `requirements.txt`, el notebook importa `scikit-learn`, `seaborn`, `matplotlib`, `geopandas`, `adjustText` y `statsmodels`, que conviene agregar al archivo.
+- `requirements.txt` incluye todas las librerías que importa el notebook. Son las del entrenamiento; las de inferencia están en `docker/requirements.txt`, que es más corto.
 - Las coordenadas de las estaciones (listado oficial del BOM) y el mapa descargan datos de internet.
 - La imputación con KNN puede tardar algunos minutos.
