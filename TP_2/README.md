@@ -14,11 +14,11 @@ Predecir si al día siguiente va a llover (`RainTomorrow`) a partir de las obser
 
 | Ruta | Descripción |
 |---|---|
-| [TP-clasificacion-AA1.ipynb](TP-clasificacion-AA1.ipynb) | Notebook con todo el trabajo: análisis descriptivo, limpieza, preprocesamiento, regresión logística y modelo base |
+| [TP-clasificacion-AA1.ipynb](TP-clasificacion-AA1.ipynb) | Notebook con todo el trabajo: análisis descriptivo, limpieza, preprocesamiento, regresión logística, modelo base, hiperparámetros, SHAP, PyCaret, red neuronal, comparación de modelos y conclusión |
 | [weatherAUS_2026C2.csv](weatherAUS_2026C2.csv) | Dataset (145.412 filas, 25 columnas) |
 | [requirements.txt](requirements.txt) | Dependencias de Python |
 | [2026C2 - TrabajoPrácticoClasificacionAA1.pdf](2026C2%20-%20TrabajoPr%C3%A1cticoClasificacionAA1.pdf) | Enunciado del TP |
-| `docker/` *(pendiente, ítem 9)* | Script `inferencia.py`, `requirements.txt`, binarios del modelo/imputers/scalers, `Dockerfile` y `readme.md` |
+| [docker/](docker/) | Ítem 9 (MLOps): `inferencia.py`, `requirements.txt`, `artefactos/` (red, imputers y scalers), `Dockerfile` y `readme.md` con las instrucciones de `docker build` y `docker run` |
 
 ## Dataset
 
@@ -35,8 +35,8 @@ Según las entregas parciales del enunciado:
 | Entrega | Ítems | Fecha límite | Estado |
 |---|---|---|---|
 | 1 | 1, 2, 3 (análisis descriptivo, regresión logística, modelo base) | 30/10 | Realizada en el notebook |
-| 2 | 4, 5, 6 (hiperparámetros, explicabilidad con SHAP, AutoML con PyCaret) | 13/11 | Pendiente |
-| 3 | 7, 8, 9, 10 (red neuronal, comparación de modelos, Docker, conclusión) | 27/11 | Pendiente |
+| 2 | 4, 5, 6 (hiperparámetros, explicabilidad con SHAP, AutoML con PyCaret) | 13/11 | Realizada en el notebook |
+| 3 | 7, 8, 9, 10 (red neuronal, comparación de modelos, Docker, conclusión) | 27/11 | Realizada: red neuronal, comparación y conclusión en el notebook; Docker en `docker/` |
 
 Defensas: jueves 03/12 y 10/12. No se aceptan entregas finales posteriores al 29/11.
 
