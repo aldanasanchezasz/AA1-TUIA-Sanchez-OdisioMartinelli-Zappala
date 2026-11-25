@@ -77,6 +77,8 @@ El F1 en validación (0,638) y en test (0,632) son casi idénticos, por lo que e
 
 ## Cómo ejecutarlo
 
+El notebook se ejecutó con **Python 3.11** (`pycaret==3.3.2` no es compatible con versiones más nuevas), así que crear el entorno con esa versión.
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate          # Windows (en Linux/macOS: source .venv/bin/activate)
